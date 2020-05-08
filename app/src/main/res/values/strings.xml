@@ -8,26 +8,25 @@
     <string name="signup2">Sign me up !</string>
 
 
-    <string name="banner_portal">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_chatroom">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_flappy_bird">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_balloon">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_catchtheball">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_portal">ca-app-pub-9770636205355626/5636502424</string>
+    <string name="banner_chatroom">ca-app-pub-9770636205355626/6758012408</string>
+    <string name="banner_flappy_bird">ca-app-pub-9770636205355626/8051198183</string>
+    <string name="banner_balloon">ca-app-pub-9770636205355626/9172708162</string>
+    <string name="banner_catchtheball">ca-app-pub-9770636205355626/4622803653</string>
 
 
-    <string name="interstitial_portal">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstitial_chatroom">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstitial_game1">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstitial_flappy_bird">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstitial_balloon">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_portal">ca-app-pub-9770636205355626/5105185236</string>
+    <string name="interstitial_chatroom">ca-app-pub-9770636205355626/8789564788</string>
+    <string name="interstitial_game1">ca-app-pub-9770636205355626/6374869026</string>
+    <string name="interstitial_flappy_bird">ca-app-pub-9770636205355626/2926578604</string>
+    <string name="interstitial_balloon">ca-app-pub-9770636205355626/9108843579</string>
 
 
-    <string name="rewarded_video_game_1">ca-app-pub-9770636205355626/4906083803</string>
-    <string name="rewarded_video_popBaloons">ca-app-pub-9770636205355626/7340675456</string>
-    <string name="rewarded_video_earn_coins">ca-app-pub-9770636205355626/1888219987</string>
+    <string name="rewarded_video_game_1">ca-app-pub-9770636205355626/8853337487</string>
+    <string name="rewarded_video_popBaloons">ca-app-pub-9770636205355626/3664945209</string>
+    <string name="rewarded_video_earn_coins">ca-app-pub-9770636205355626/4786455182</string>
 
-
-    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_id">ca-app-pub-9770636205355626~5557090301</string>
 
 
     <color name="grey_60">#666666</color>
@@ -35,12 +34,10 @@
 
     <string name="instructions">Uncover two matching cards at once\nto eliminate them from the game.\nBeware of the timer, the less the time you take the more you score\nbut make sure to finish before timer runs out.</string>
 
-
     <string name="history">""\t"The University was founded through Harambee spirit on 5th January, 1972, as Western College of Arts and Applied Sciences (WECO) under the stewardship of the former fiery MP, Masinde Muliro. As chairman of the project executive committee, Muliro worked with Prof. Reuben J. Olembo (then Head, Department of Botany University of Nairobi) as secretary."\n""\n""\t"The establishment of the College was in response to the needs of the people of Western province to have a College which would provide a training ground for technical manpower requirements for the province and the nation. The College was also expected to inculcate a sense of self-help and self-reliance among its students and facilitate active participation of youth in national development."\n""\n""\t"The first batch of 24 students who were drawn from all parts of the country, joined on March 24th 1977, and enrolled for certificate and diploma in courses which included mechanical and motor vehicle, electrical, electronic, agriculture, water, building, architecture, accounting, finance among others."\n""\n""\t" In December 2002, WECO became WUCST (Western University College of Science and Technology) after being elevated to a Constituent College of Moi University. Early 2007, President Kibaki elevated WUCST to a full university by assenting to a bill which also changed the name to MMUST."\n""\n""\n""\n""\n""\n""</string>
 
 
     <string name="me">Martin is a Computer Science student who enjoys designing websites, mobile applications as well as addictive android games.\n\n\n\n</string>
-
 
     <string name="masinde_muliro_university"><u>MASINDE MULIRO UNIVERSITY </u></string>
     <string name="of_science_and_technology"><u> OF SCIENCE AND TECHNOLOGY</u></string>
