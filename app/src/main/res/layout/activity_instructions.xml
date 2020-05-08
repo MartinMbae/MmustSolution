@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_instructions"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/btn_back_instructions"
+        android:layout_width="@dimen/heart_size"
+        android:layout_height="@dimen/heart_size"
+        android:background="@drawable/arrow_back"
+        android:contentDescription="@string/back_button" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/original_surfer"
+        android:layout_marginTop="10dp"
+        android:padding="@dimen/instructions_padding"
+        android:text="@string/game_instructions"
+        android:textColor="@color/accent"
+        android:textSize="22sp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/original_surfer"
+        android:padding="@dimen/instructions_padding"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        android:textColor="@color/accent"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:context=".InstructionsActivity" />
+
+</RelativeLayout>

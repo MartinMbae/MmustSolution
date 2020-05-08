@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_16sdp"
+    tools:context=".ProgrammesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Students :"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"/>
+
+        <com.daasuu.cat.CountAnimationTextView
+            android:id="@+id/studentsCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"
+            android:text="0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Programmes :"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"/>
+
+        <com.daasuu.cat.CountAnimationTextView
+            android:id="@+id/programmesCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"
+            android:text="0"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Schools :"
+            android:textAllCaps="true"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"/>
+
+        <com.daasuu.cat.CountAnimationTextView
+            android:id="@+id/schoolsCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:textColor="@color/default_text_color"
+            android:text="0"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"/>
+        <ProgressBar
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:id="@+id/progress_bar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

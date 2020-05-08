@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Mmust Solution</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="signin">Sign in to account</string>
+    <string name="signup">Sign up for account</string>
+    <string name="signup2">Sign me up !</string>
+
+
+    <string name="banner_portal">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_chatroom">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_flappy_bird">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_balloon">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_catchtheball">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="interstitial_portal">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_chatroom">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_game1">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_flappy_bird">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_balloon">ca-app-pub-3940256099942544/1033173712</string>
+
+
+    <string name="rewarded_video_game_1">ca-app-pub-9770636205355626/4906083803</string>
+    <string name="rewarded_video_popBaloons">ca-app-pub-9770636205355626/7340675456</string>
+    <string name="rewarded_video_earn_coins">ca-app-pub-9770636205355626/1888219987</string>
+
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+
+
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+
+    <string name="instructions">Uncover two matching cards at once\nto eliminate them from the game.\nBeware of the timer, the less the time you take the more you score\nbut make sure to finish before timer runs out.</string>
+
+
+    <string name="history">""\t"The University was founded through Harambee spirit on 5th January, 1972, as Western College of Arts and Applied Sciences (WECO) under the stewardship of the former fiery MP, Masinde Muliro. As chairman of the project executive committee, Muliro worked with Prof. Reuben J. Olembo (then Head, Department of Botany University of Nairobi) as secretary."\n""\n""\t"The establishment of the College was in response to the needs of the people of Western province to have a College which would provide a training ground for technical manpower requirements for the province and the nation. The College was also expected to inculcate a sense of self-help and self-reliance among its students and facilitate active participation of youth in national development."\n""\n""\t"The first batch of 24 students who were drawn from all parts of the country, joined on March 24th 1977, and enrolled for certificate and diploma in courses which included mechanical and motor vehicle, electrical, electronic, agriculture, water, building, architecture, accounting, finance among others."\n""\n""\t" In December 2002, WECO became WUCST (Western University College of Science and Technology) after being elevated to a Constituent College of Moi University. Early 2007, President Kibaki elevated WUCST to a full university by assenting to a bill which also changed the name to MMUST."\n""\n""\n""\n""\n""\n""</string>
+
+
+    <string name="me">Martin is a Computer Science student who enjoys designing websites, mobile applications as well as addictive android games.\n\n\n\n</string>
+
+
+    <string name="masinde_muliro_university"><u>MASINDE MULIRO UNIVERSITY </u></string>
+    <string name="of_science_and_technology"><u> OF SCIENCE AND TECHNOLOGY</u></string>
+
+    <string name="level_label">Level:&#160;</string>
+    <string name="score_label">Score:&#160;</string>
+    <string name="play_game">Play game</string>
+    <string name="start_game">Start game</string>
+    <string name="finish_level">You finished level&#160;</string>
+    <string name="level_start">Start level</string>
+    <string name="game_instructions">The goal of the game is to pop as many balloons as possible before they escape. At the beginning of the game, you have five lives. After each level, the number of balloons increases as well as the speed they appear. So test your reflexes to see how fast you are :)</string>
+    <string name="copyright" translatable="false">Pop Balloon © 2019</string>
+    <string name="high_score" translatable="false">0</string>
+    <string name="high_score_label">High score:&#160;</string>
+    <string name="game_over">Game over!</string>
+    <string name="new_high_score_title">New High Score!</string>
+    <string name="new_high_score_message">Your new high score is:&#160;</string>
+    <string name="signed_in">Signed in!</string>
+    <string name="invite_friends">Share</string>
+    <string name="level" translatable="false">0</string>
+    <string name="game_life" translatable="false">Game life</string>
+    <string name="back_button" translatable="false">Back</string>
+    <string name="sound" translatable="false">Sound</string>
+    <string name="music" translatable="false">Music</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="leaderboard" translatable="false">Leaderboard</string>
+    <string name="achievements" translatable="false">Achievements</string>
+    <string name="invite_title" translatable="false">Pop Balloon</string>
+    <string name="invite_message" translatable="false">Come and try Pop Balloon Android game!</string>
+    <string name="invite_action" translatable="false">Join me!</string>
+    <string name="dynamic_link_fail" translatable="false">Dynamic link fail!</string>
+    <string name="assertion_message" translatable="false">Expected 1 param for current level</string>
+    <string name="dynamic_link" translatable="false">https://balloon.page.link/pop_up_balloon</string>
+    <string name="email_cover" translatable="false">https://img.grouponcdn.com/deal/7BQdtgZJ6jHiQ5mPPMWH/m2-737x442/v1/c700x420.jpg</string>
+    <string name="instructions1">The aim of this game is to earn as many points as possible. \n </string>
+    <string name="points">You can use coins to resurrect after losing in any of the three games. \n\n Earn coins by referring your friends to the app or by watching a simple ad video.</string>
+    <string name="invite_text">Ask your friend to enter the code below during installation. \nEach invite will earn you a hundred coins. \nYou can invite as many friends as you can.</string>
+    <string name="invite_friend_title"><u>INVITE FRIENDS TO EARN FREE COINS</u></string>
+    <string name="invited_text">Have you been invited by a friend? Enter their referral code here.\n\nLeave this space empty if you do not have a referral code.</string>
+    <string name="welcome_text">Share this app with your friends and earn free coins. \nEach invite will earn you a hundred coins. \nYou can invite as many friends as you can.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">or</string>
+    <string name="title_activity_teacher__login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="teacher_code">Teacher code</string>
+
+    <string name="action_about">About</string>
+    <string name="app_author">Author : Donato Rimenti</string>
+    <string name="app_version">Version: 1.0.1</string>
+    <string name="app_descrip">Simple app for handling Bluetooth discovery and pairing.</string>
+    <string name="device_discovery_started">Looking for nearby devices&#8230;</string>
+    <string name="device_already_paired">This device is already paired!</string>
+    <string name="device_pairing_success">Device successfully paired!</string>
+    <string name="enabling_bluetooth">Turning on Bluetooth and looking for devices&#8230;</string>
+    <string name="device_discovery_stopped">Device discovery cancelled</string>
+    <string name="empty_list_message">No nearby devices found. Tap on the bottom-right button to start a new device discovery.</string>
+    <string name="bluetooth_not_available_message">It seems that this device doesn\'t have a Bluetooth controller available. \nAttendance works only with Bluetooth, so please try again on a different device. \nThe app will be now terminated.</string>
+    <string name="bluetooth_not_available_title">Bluetooth not available</string>
+
+
+    <string name="sort_ascending">Sort Ascending</string>
+    <string name="sort_descending">Sort Descending</string>
+    <string name="clear_sorting">Clear</string>
+    <string name="changepasw_description">As a safety measure, all users are required to change their password during their first log in. Fill the required fields correctly to change your password.</string>
+
+</resources>
+
+
+    <!--<string name="banner_portal">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="banner_chatroom">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_portal">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="interstitial_chatroom">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+

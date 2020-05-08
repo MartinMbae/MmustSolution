@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blueish">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/ttt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:padding="2.0dip"
+                android:text="Have you found a lost item? \nWould you like to give it back to the owner?\nThis is exactly what we do."
+                android:textColor="#ff000000" />
+
+            <LinearLayout
+                android:id="@+id/forms"
+                android:layout_width="250.0dip"
+                android:layout_height="45.0dip"
+                android:layout_below="@+id/ttt"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorAccent"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:popupBackground="#ff73d216"
+                    android:spinnerMode="dialog" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/nationalid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_below="@id/forms"
+                android:background="@color/cardbackground"
+                android:gravity="center">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:id="@+id/w"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Provide the name on the id"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/idNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name">
+
+
+                    <EditText
+                        android:id="@+id/a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:hint="Provide the ID Number"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/idNumber"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:id="@+id/rr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:text="+254" />
+
+                    <EditText
+                        android:id="@+id/ww"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Your Phone number"
+                        android:inputType="phone"
+                        android:maxLength="9"
+                        android:layout_toEndOf="@+id/rr" />
+
+
+                    </RelativeLayout>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/card"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="submit"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/contact"
+                    android:background="@drawable/btn_rounded_red"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/schoolid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forms"
+                android:layout_marginBottom="35.0dip"
+                android:layout_marginTop="50.0dip"
+                android:padding="5.0dip"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank you for choosing to find the ID's owner"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title2"
+                    android:text="Provide us with the following details to help in tracking the owner :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/w2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t2"
+                    android:hint="Name on the id" />
+
+                <EditText
+                    android:id="@+id/a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/w2"
+                    android:hint="Registration Number" />
+
+                <TextView
+                    android:id="@+id/aa2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a2"
+                    android:text="Your contact details to be able to get to you :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/rrr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa2"
+                    android:text="+254" />
+
+                <EditText
+                    android:id="@+id/ww2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa2"
+                    android:layout_toRightOf="@+id/rrr"
+                    android:hint="Your Phone number"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:layout_toEndOf="@+id/rrr" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="100.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_below="@+id/ww2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="15.0dip">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="50.0dip"
+                            android:text="Submit"
+                            android:textColor="@color/colWhite"
+                            android:textSize="12.0sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/documents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forms"
+                android:layout_marginBottom="35.0dip"
+                android:layout_marginTop="50.0dip"
+                android:padding="5.0dip"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank you for choosing to find the document's owner"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title3"
+                    android:text="Provide us with the following details to help in tracking the owner :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/w3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t3"
+                    android:hint="Type of Document eg. Birth Certificate" />
+
+                <EditText
+                    android:id="@+id/a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/w3"
+                    android:hint="Name on the Document" />
+
+                <EditText
+                    android:id="@+id/a32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a3"
+                    android:hint="Any Unique Feaure eg. Found in a green bag" />
+
+                <TextView
+                    android:id="@+id/aa3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/a32"
+                    android:text="Your contact details to be able to get to you :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/rrrr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa3"
+                    android:text="+254" />
+
+                <EditText
+                    android:id="@+id/ww3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aa3"
+                    android:layout_toRightOf="@+id/rrrr"
+                    android:hint="Your Phone number"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:layout_toEndOf="@+id/rrrr" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card3"
+                    android:layout_width="100.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_below="@+id/ww3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="15.0dip">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="50.0dip"
+                            android:text="Submit"
+                            android:textColor="@color/colWhite"
+                            android:textSize="12.0sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/books"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forms"
+                android:layout_marginBottom="35.0dip"
+                android:layout_marginTop="50.0dip"
+                android:padding="5.0dip"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/titleb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank you for choosing to find the Book(s) owner"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleb"
+                    android:text="Provide us with the following details to help in tracking the owner :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/wb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tb"
+                    android:hint="Book Title" />
+
+                <EditText
+                    android:id="@+id/ab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wb"
+                    android:hint="Subject" />
+
+                <EditText
+                    android:id="@+id/wbbb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ab"
+                    android:hint="Place Found" />
+
+                <EditText
+                    android:id="@+id/abb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wbbb"
+                    android:hint="Unique Feature eg. Blue Cover" />
+
+                <TextView
+                    android:id="@+id/aab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/abb"
+                    android:text="Your contact details to be able to get to you :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/rrrrr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aab"
+                    android:text="+254" />
+
+                <EditText
+                    android:id="@+id/ww4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aab"
+                    android:layout_toRightOf="@+id/rrrrr"
+                    android:hint="Your Phone number"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:layout_toEndOf="@+id/rrrrr" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardb"
+                    android:layout_width="100.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_below="@+id/ww4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="15.0dip">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView6b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="50.0dip"
+                            android:text="Submit"
+                            android:textColor="@color/colWhite"
+                            android:textSize="12.0sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/electonics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forms"
+                android:layout_marginBottom="35.0dip"
+                android:layout_marginTop="50.0dip"
+                android:padding="5.0dip"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/titlebe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank you for choosing to find the owner"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titlebe"
+                    android:text="Provide us with the following details to help in tracking the owner :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/wbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tbe"
+                    android:hint="Electronic Type" />
+
+                <EditText
+                    android:id="@+id/abe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wbe"
+                    android:hint="Model" />
+
+                <EditText
+                    android:id="@+id/wbbbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/abe"
+                    android:hint="Place Found" />
+
+                <EditText
+                    android:id="@+id/abbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wbbbe"
+                    android:hint="Unique Feature eg. color" />
+
+                <TextView
+                    android:id="@+id/aabe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/abbe"
+                    android:text="Your contact details to be able to get to you :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/rrrq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aabe"
+                    android:text="+254" />
+
+                <EditText
+                    android:id="@+id/ww5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aabe"
+                    android:layout_toRightOf="@+id/rrrq"
+                    android:hint="Your Phone number"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:layout_toEndOf="@+id/rrrq" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardbe"
+                    android:layout_width="100.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_below="@+id/ww5"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="15.0dip">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView6e"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="50.0dip"
+                            android:text="Submit"
+                            android:textColor="@color/colWhite"
+                            android:textSize="12.0sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/others"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forms"
+                android:layout_marginBottom="35.0dip"
+                android:layout_marginTop="50.0dip"
+                android:padding="5.0dip"
+                android:visibility="invisible">
+
+                <TextView
+                    android:id="@+id/titlem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thank you for choosing to find the item's owner"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <TextView
+                    android:id="@+id/tm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titlem"
+                    android:text="Provide us with the following details to help in tracking the owner :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/wm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tm"
+                    android:hint="Item" />
+
+                <EditText
+                    android:id="@+id/am"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wm"
+                    android:hint="Brief Description" />
+
+                <TextView
+                    android:id="@+id/aam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/am"
+                    android:text="Your contact details to be able to get to you :"
+                    android:textColor="#ff000000"
+                    android:textSize="18.0sp" />
+
+                <EditText
+                    android:id="@+id/rrrw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aam"
+                    android:text="+254" />
+
+                <EditText
+                    android:id="@+id/ww6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aam"
+                    android:layout_toRightOf="@+id/rrrw"
+                    android:hint="Your Phone number"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:layout_toEndOf="@+id/rrrw" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardm"
+                    android:layout_width="100.0dip"
+                    android:layout_height="45.0dip"
+                    android:layout_below="@+id/ww6"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="15.0dip">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TextView
+                            android:id="@+id/textView6m"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="50.0dip"
+                            android:text="Submit"
+                            android:textColor="@color/colWhite"
+                            android:textSize="12.0sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+        </LinearLayout>
+</RelativeLayout>

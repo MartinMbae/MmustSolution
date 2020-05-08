@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D2BD1</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#ececec</color>
+    <color name="darkwhite">#ececec</color>
+    <color name="green">#56ab2f</color>
+    <color name="gren_br">#5ec131</color>
+    <color name="cream">#e9bfa0</color>
+    <color name="toolbar_items">#313131</color>
+    <color name="yellow">#FFCB2B</color>
+    <color name="grey">#5b5b5b</color>
+    <color name="white_faded">#F8F5F5</color>
+    <!--Post card colors-->
+    <color name="post_heading">#2e2e2e</color>
+    <color name="post_details">#747474</color>
+    <color name="dialogTextColor">#ffffff</color>
+
+    <color name="background800">#424242</color>
+    <color name="menu_sky_blue">#00FFFF</color>
+    <color name="menu_sky_blue_dark">#00BFBF</color>
+
+    <color name="default_text_color">#3c415e</color>
+
+    <color name="white_93">#edf8f8f8</color>
+
+    <color name="colorText">#FFF</color>
+    <color name="colorBtpn">#f58220</color>
+
+    <color name="settings_black">#535353</color>
+    <color name="black">#000000</color>
+
+
+    <color name="blueish">#331178f5</color>
+    <color name="red_300">#E57373</color>
+    <color name="red_400">#EF5350</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="grey_90">#263238</color>
+
+    <color name="grey_fb">#ff90949c</color>
+
+    <color name="cardbackground">#cef2c5</color>
+
+    <color name="red">#EF5350</color>
+
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mm">#B4D5FF</color>
+    <color name="loginoptioncolor">#32b1cd</color>
+
+    <color name="purple">#B1609D</color>
+
+    <color name="aqua">#ff2effff</color>
+
+    <color name="back">#fff7f7f7</color>
+
+
+
+    <color name="blue">#ff204a87</color>
+
+    <color name="blackish">#555555</color>
+
+    <color name="blush">#f2f2f2</color>
+
+    <color name="colWhite">#ffded1d5</color>
+
+    <color name="cornflowerblue">#ff5daeff</color>
+
+    <color name="crimson">#ffff0040</color>
+
+    <color name="ic_launcher_background">#ffffffff</color>
+
+    <color name="iconholders">#ffffffff</color>
+
+    <color name="sienna">#ffae431f</color>
+
+    <color name="tex">#ff555555</color>
+
+
+    <color name="texttouched">#ff3465a4</color>
+
+    <!--<color name="toolbarPrograms">#ff1178f5</color>-->
+
+    <color name="toolbarTitle">#ffffffff</color>
+
+    <color name="pink">#FB615F</color>
+
+    <!-- Light UI colors -->
+    <color name="lt_yellow">#fce18a</color>
+    <color name="lt_orange">#ff726d</color>
+    <color name="lt_purple">#b48def</color>
+    <color name="lt_pink">#f4306d</color>
+
+    <!-- Dark UI colors -->
+    <color name="dk_cyan">#3aaab8</color>
+    <color name="dk_green">#38ba9e</color>
+    <color name="dk_red">#bb3d72</color>
+    <color name="dk_blue">#006ded</color>
+
+
+    <color name="primary">#FFC107</color>
+    <color name="primary_dark">#FFA000</color>
+    <color name="primary_light">#FFECB3</color>
+    <color name="accent">#FF4081</color>
+
+
+
+    <color name="title">#CDFFFFFF</color>
+    <color name="item_header">#000</color>
+    <color name="item_content">#90000000</color>
+    <color name="item_title">#000</color>
+    <color name="card_background">#ededed</color>
+    <color name="button_background">#2196F3</color>
+    <color name="button_text_color">#FAFAFA</color>
+    <color name="secondPage">#00838F</color>
+    <color name="text_two">#94ffffff</color>
+
+    <color name="media">#EA6D78</color>
+    <color name="colorOrange">#FF9800</color>
+
+    <color name="bg_line">#E7E7E7</color>
+    <color name="bg_color">#FF99DCD7</color>
+
+    <color name="cell_background_color">#ffffff</color>
+    <color name="cell_text_color">#1f1f1f</color>
+    <color name="header_line_color">@android:color/holo_red_light</color>
+
+
+    <!-- Material Design TableView Colors -->
+    <color name="md_cell_text_color">#1f1f1f</color>
+    <color name="md_column_header_text_color">#696969</color>
+    <color name="md_highlight_row_background_color">#EEEEEE</color>
+    <color name="md_selected_background_color">#F5F5F5</color>
+    <color name="md_cell_line_color">#dbdbdb</color>
+
+
+    <color name="default_background_color">@color/cell_background_color</color>
+
+</resources>

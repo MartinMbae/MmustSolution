@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:id="@+id/semesterString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/white"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:id="@+id/academic_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/lesson_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/tick"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="16dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/unitcodetittle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Unit Code:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/unit_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/unitcodetittle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/unitcodetittle" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/unitnametittle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Unit:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/unit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/unitnametittle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/unitnametittle" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/lecturer_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Lecturer:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/lecturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/lecturer_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/lecturer_title" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/starttime_text"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Start time:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/starttime_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/starttime_text" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/mytime_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My attendance time:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/my_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/mytime_text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/mytime_text" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/attendancetittle"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Attendance:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"/>
+
+
+            <TextView
+                android:id="@+id/attendance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/attendancetittle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_toRightOf="@id/attendancetittle" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

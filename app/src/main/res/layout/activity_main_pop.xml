@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/btn_leaderboard"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_margin="@dimen/padding"
+        android:layout_toStartOf="@id/btn_achievements"
+        android:background="@drawable/games_leaderboards_green"
+        android:contentDescription="@string/leaderboard" />
+
+    <ImageButton
+        android:id="@+id/btn_achievements"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/padding"
+        android:background="@drawable/games_achievements_green"
+        android:contentDescription="@string/achievements" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="RelativeOverlap">
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/original_surfer"
+            android:padding="@dimen/padding"
+            android:text="@string/play_game"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_instructions"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:background="@drawable/button_selector"
+            android:fontFamily="@font/original_surfer"
+            android:padding="@dimen/padding"
+            android:text="Instructions"
+            android:textColor="@color/accent"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/high_score_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/original_surfer"
+                android:text="@string/high_score_label"
+                android:textColor="@color/accent"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/high_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/high_score_label"
+                android:fontFamily="@font/original_surfer"
+                android:text="@string/high_score"
+                android:textColor="@color/primary_dark"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_1"
+            android:layout_marginBottom="@dimen/margin_top_1">
+
+            <ImageButton
+                android:id="@+id/btn_music"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_marginEnd="@dimen/margin"
+                android:background="@drawable/music_note"
+                android:contentDescription="@string/music" />
+
+            <ImageButton
+                android:id="@+id/btn_sound"
+                android:layout_width="@dimen/button_size"
+                android:layout_height="@dimen/button_size"
+                android:layout_toEndOf="@id/btn_music"
+                android:background="@drawable/volume_up"
+                android:contentDescription="@string/sound" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

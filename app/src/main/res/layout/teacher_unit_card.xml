@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#ffded1d5"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/unit_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100.0dip"
+            android:padding="10.0dip">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <TextView
+                    android:id="@+id/idname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="1.0dip"
+                    android:text="Course :"
+                    android:textSize="13.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idname"
+                    android:padding="1.0dip"
+                    android:text="Unit Name :"
+                    android:textSize="13.0sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/unit_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_toEndOf="@+id/id"
+                    android:maxLength="25"
+                    android:padding="1.0dip"
+                    android:text="BCS 210"
+                    android:textSize="13.0sp" />
+
+                <TextView
+                    android:id="@+id/unit_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idname"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_toEndOf="@+id/id"
+                    android:maxLength="30"
+                    android:padding="1.0dip"
+                    android:text="Software Engineering"
+                    android:textSize="13.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

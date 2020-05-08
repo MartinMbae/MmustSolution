@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="90"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp">
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100.0dip"
+            android:background="#fff1f1f1">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70.0dip"
+                android:text="MARTIN MBAE"
+                android:textColor="#ff000000"
+                android:textSize="16.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                android:padding="25.0dip"
+                android:text="@string/me"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/sd"
+                android:layout_marginTop="5.0dip"
+                android:layout_marginBottom="5.0dip"
+                android:onClick="More"
+                android:textColor="@color/colorPrimary"
+                android:text="MORE FROM THE DEVELOPER"
+                android:textSize="12.0sp" />
+
+            <RelativeLayout
+                android:id="@+id/sd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:padding="15.0dip">
+
+                <ImageView
+                    android:id="@+id/facebook"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentTop="true"
+                    android:onClick="toFacebook"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fb"
+                    android:layout_marginEnd="20.0dip" />
+
+                <ImageView
+                    android:id="@+id/email"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentTop="true"
+                    android:onClick="toEmail"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/gm"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_toEndOf="@+id/facebook" />
+
+                <ImageView
+                    android:id="@+id/twitter"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentTop="true"
+                    android:onClick="toTwitter"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/tttt"
+                    android:layout_marginStart="40.0dip"
+                    android:layout_toEndOf="@+id/email" />
+
+                  <ImageView
+                    android:id="@+id/toInstagram"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentTop="true"
+                    android:onClick="toInstagram"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/insta"
+                    android:layout_marginStart="40.0dip"
+                    android:layout_toEndOf="@+id/twitter" />
+
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mypic"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50.0dip"
+            android:src="@drawable/developer" />
+    </RelativeLayout>
+
+</LinearLayout>

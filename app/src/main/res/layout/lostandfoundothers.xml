@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10.0dip"
+        android:minHeight="100.0dip"
+        android:minWidth="300.0dip"
+        app:cardBackgroundColor="@color/colWhite"
+        app:cardCornerRadius="20.0dip">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minHeight="100.0dip"
+            android:padding="10.0dip">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10.0dip"
+                android:text="Others"
+                android:textColor="#ff000000"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/idname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:padding="1.0dip"
+                android:text="Item :"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idname"
+                android:padding="1.0dip"
+                android:text="Description :"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/idnametexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="20.0dip"
+                android:layout_toRightOf="@+id/id"
+                android:padding="1.0dip"
+                android:textSize="13.0sp"
+                android:layout_marginStart="20.0dip"
+                android:layout_toEndOf="@+id/id" />
+
+            <TextView
+                android:id="@+id/idtexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idname"
+                android:layout_marginLeft="20.0dip"
+                android:layout_toRightOf="@+id/id"
+                android:maxLength="80"
+                android:padding="1.0dip"
+                android:textSize="13.0sp"
+                android:layout_marginStart="20.0dip"
+                android:layout_toEndOf="@+id/id" />
+
+            <TextView
+                android:id="@+id/telothers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.0sp"
+                android:visibility="invisible" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardo"
+                android:layout_width="80.0dip"
+                android:layout_height="25.0dip"
+                android:layout_below="@+id/idtexto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10.0dip"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="15.0dip">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="50.0dip"
+                        android:text="CLAIM"
+                        android:textColor="@color/colWhite"
+                        android:textSize="12.0sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

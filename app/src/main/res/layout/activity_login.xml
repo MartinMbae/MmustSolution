@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/teabackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha=".4">
+
+    </RelativeLayout>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/toptext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Sign In"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginEnd="40dp"
+                    android:background="@drawable/edittextshape"
+                    android:drawableStart="@drawable/mail"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Registration Number"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/darkwhite"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="12sp" />
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="40dp"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:background="@drawable/edittextshape"
+                    android:drawableStart="@drawable/password"
+                    android:drawablePadding="10dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/darkwhite"
+                    android:textCursorDrawable="@drawable/cursor"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/login"
+                    android:textAllCaps="true"
+                    android:background="@drawable/loginbutton"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Login" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+</RelativeLayout>

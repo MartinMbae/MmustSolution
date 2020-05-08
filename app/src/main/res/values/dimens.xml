@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_top">@dimen/text_size</dimen>
+    <dimen name="status_text_size">20sp</dimen>
+    <dimen name="heart_size">20dp</dimen>
+    <dimen name="button_size">@dimen/heart_size</dimen>
+    <dimen name="button_size_1">24dp</dimen>
+    <dimen name="instructions_padding">4dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="text_size_1">30sp</dimen>
+    <dimen name="margin_end">8dp</dimen>
+    <dimen name="margin_end_1">32dp</dimen>
+    <dimen name="width">180dp</dimen>
+    <dimen name="width_1">@dimen/heart_size</dimen>
+    <dimen name="margin_top_1">16dp</dimen>
+    <dimen name="padding">6dp</dimen>
+
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin2">2dp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="bottom_margin">46dp</dimen>
+    <dimen name="bottom_width">126dp</dimen>
+    <dimen name="bottom_height">86dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="cell_height">40dp</dimen>
+    <dimen name="row_header_width">55dp</dimen>
+
+    <!-- Material Design TableView dimensions -->
+    <dimen name="md_cell_height">40dp</dimen>
+    <dimen name="md_cell_text_size">13sp</dimen>
+    <dimen name="md_column_header_text_size">13sp</dimen>
+    <dimen name="md_column_header_gap_size">28dp</dimen>
+
+
+    <!-- Overriding the default values of the tableView -->
+    <dimen name="default_row_header_width">55dp</dimen>
+    <dimen name="default_column_header_height">40dp</dimen>
+
+
+    <dimen name="margin_left_16">16dp</dimen>
+    <dimen name="margin_right_16">16dp</dimen>
+    <dimen name="margin_top_16">16dp</dimen>
+    <dimen name="margin_bottom_16">16dp</dimen>
+
+    <dimen name="margin_top_8">8dp</dimen>
+    <dimen name="margin_bottom_8">8dp</dimen>
+    <dimen name="margin_left_8">8dp</dimen>
+    <dimen name="margin_right_8">8dp</dimen>
+
+    <dimen name="margin_top_4">4dp</dimen>
+    <dimen name="margin_bottom_4">4dp</dimen>
+    <dimen name="margin_left_4">4dp</dimen>
+    <dimen name="margin_right_4">4dp</dimen>
+
+    <dimen name="radius_2">2dp</dimen>
+    <dimen name="radius_8">8dp</dimen>
+    <dimen name="radius_16">16dp</dimen>
+    <dimen name="radius_24">24dp</dimen>
+    <dimen name="radius_32">32dp</dimen>
+
+    <dimen name="padding_1">1dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+    <dimen name="padding_12">12dp</dimen>
+    <dimen name="padding_14">14dp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+
+    <dimen name="text_16">16dp</dimen>
+    <dimen name="text_14">14dp</dimen>
+    <dimen name="text_12">12dp</dimen>
+    <dimen name="text_18">18dp</dimen>
+    <dimen name="text_20">20dp</dimen>
+    <dimen name="text_22">22dp</dimen>
+    <dimen name="text_24">24dp</dimen>
+    <dimen name="text_26">26dp</dimen>
+
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="lineSpacingExtra_4">4dp</dimen>
+
+
+    <dimen name="viewportWidth">24.0</dimen>
+    <dimen name="viewportHeight">24.0</dimen>
+
+
+    <dimen name="vector_height">24dp</dimen>
+    <dimen name="vector_width">24dp</dimen>
+
+</resources>

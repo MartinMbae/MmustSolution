@@ -1,0 +1,128 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bgLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardActiveLesson"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardBackgroundColor="@color/bg_color">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:id="@+id/activeImage"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/active"
+                            android:layout_centerHorizontal="true"/>
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            android:layout_below="@id/activeImage"
+                            android:layout_marginTop="10dp"
+                            android:text="You have an ongoing lecture."/>
+
+                        <TextView
+                            android:id="@+id/activeUnit_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            android:layout_below="@id/title"
+                            android:layout_marginTop="10dp"
+                            android:text="Communication Skills."
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/activeStartTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/black"
+                            android:textSize="12sp"
+                            android:textAllCaps="true"
+                            android:gravity="center"
+                            android:layout_below="@id/activeUnit_name"
+                            android:layout_marginTop="10dp"
+                            android:text="Started at - 11: 20 Am"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/endLesson"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="End Lesson"
+                            android:background="@drawable/btn_rounded_red"
+                            android:layout_centerHorizontal="true"
+                            android:paddingRight="30dp"
+                            android:paddingLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#F2FAFAFA"
+                            android:layout_below="@id/activeStartTime"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:id="@+id/relative_empty">
+
+                    <include
+                        layout="@layout/include_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </RelativeLayout>
+
+                <ExpandableListView
+                    android:id="@+id/lessons_expandableListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/cardActiveLesson"/>
+
+            </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/bottom_sheet_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "907703036484",
+    "firebase_url": "https://masindemuliroapp.firebaseio.com",
+    "project_id": "masindemuliroapp",
+    "storage_bucket": "masindemuliroapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907703036484:android:4932d278b6d68a4e352a11",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBGbjtthGp9UPT5YM1Ii_ijXlFFmNEzUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907703036484:android:d73f40bd5fe57cd0352a11",
+        "android_client_info": {
+          "package_name": "studios.luxurious.mmustsolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907703036484-fmo1oe2b8qk394hmelq2mn6bcggjuv5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studios.luxurious.mmustsolution",
+            "certificate_hash": "e1328cd0018ce653ea74c201b97793c1acad9a4c"
+          }
+        },
+        {
+          "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBGbjtthGp9UPT5YM1Ii_ijXlFFmNEzUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907703036484:android:e38eb637c380afb6352a11",
+        "android_client_info": {
+          "package_name": "studios.luxurious.mmustsolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907703036484-tvl5h2054j722j5rqvde74iup984qco2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studios.luxurious.mmustsolution",
+            "certificate_hash": "86e46391256c02bd615f3a67b314738bab8796ed"
+          }
+        },
+        {
+          "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBGbjtthGp9UPT5YM1Ii_ijXlFFmNEzUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907703036484-k7baf3s9s4q67niesrstupc9590nk7e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

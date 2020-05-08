@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <RelativeLayout
+                android:id="@+id/holder"
+                android:layout_width="fill_parent"
+                android:layout_height="250.0dip"
+                android:layout_centerHorizontal="true"
+                android:background="@color/cornflowerblue">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle"
+                    android:layout_width="120.0dip"
+                    android:layout_height="120.0dip"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25.0dip"
+                    android:onClick="Bigpic"/>
+
+
+                <EditText
+                    android:id="@+id/nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/circle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10.0dip"
+                    android:background="@null"
+                    android:maxLength="30"
+                    android:padding="5.0dip"
+                    android:textColor="#ffffffff"
+                    android:textSize="17.0sp" />
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ih"
+                android:layout_width="wrap_content"
+                app:cardBackgroundColor="@color/colWhite"
+                app:cardCornerRadius="10dp"
+                android:onClick="Posts"
+                android:layout_marginTop="225dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posts"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingRight="30dp"
+                    android:paddingLeft="30dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <ScrollView
+                android:id="@+id/scroll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/holder"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="33.0dip">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/q1"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true">
+
+                        <RelativeLayout
+                            android:id="@+id/name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima"
+                                android:layout_centerHorizontal="true"
+                                android:text="Username" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/na"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:maxLength="30"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/q2"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/q1"
+                        android:layout_centerHorizontal="true">
+
+                        <RelativeLayout
+                            android:id="@+id/level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima2"
+                                android:layout_centerHorizontal="true"
+                                android:text="Level of Study" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/lev"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:maxLength="30"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/q3"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/q2"
+                        android:layout_centerHorizontal="true">
+
+                        <RelativeLayout
+                            android:id="@+id/course"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima3"
+                                android:layout_centerHorizontal="true"
+                                android:text="Course" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/ccc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:maxLength="50"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/q4"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/q3"
+                        android:layout_centerHorizontal="true">
+
+                        <RelativeLayout
+                            android:id="@+id/regNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima4"
+                                android:layout_centerHorizontal="true"
+                                android:text="Reg. Number" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/rre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:maxLength="31"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/q5"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/q4"
+                        android:layout_centerHorizontal="true">
+
+                        <RelativeLayout
+                            android:id="@+id/yearr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima5"
+                                android:layout_centerHorizontal="true"
+                                android:text="Year of Study" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/yea"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:inputType="phone"
+                            android:maxLength="1"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/q6"
+                        android:layout_width="280.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/q5"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="35.0dip">
+
+                        <RelativeLayout
+                            android:id="@+id/contact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/ima6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.0dip"
+                                android:layout_marginStart="10.0dip" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/ima6"
+                                android:layout_centerHorizontal="true"
+                                android:text="Contact Info" />
+                        </RelativeLayout>
+
+                        <EditText
+                            android:id="@+id/coo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="120.0dip"
+                            android:background="@null"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:padding="2.0dip"
+                            android:textColor="#ff2e2e2e"
+                            android:layout_marginStart="120.0dip" />
+
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

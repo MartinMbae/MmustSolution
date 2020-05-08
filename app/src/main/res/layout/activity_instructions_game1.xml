@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_instructions"
+    android:background="@drawable/bg_game1">
+
+    <FrameLayout
+        android:id="@+id/gameFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="60dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/startLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="12">
+
+                <ImageView
+                    android:id="@+id/orange"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/orange"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:lines="4"
+                    android:text="The yellow ball earns you 10 points"/>
+
+            </LinearLayout>
+
+           
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="12">
+
+                <ImageView
+                    android:id="@+id/pink"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/pink"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:lines="4"
+                    android:text="The pink ball earns you 20 points. It also increases the size of your playing field"/>
+
+            </LinearLayout>
+
+           
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="12">
+
+                <ImageView
+                    android:id="@+id/enemy"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/black"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:lines="4"
+                    android:text="The black ball is the enemy. Each time the black ball hits you, the size of your playing field is decreased."/>
+
+            </LinearLayout>
+
+           
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:weightSum="12">
+
+                <ImageView
+                    android:id="@+id/box"
+                    android:layout_width="0dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/box_right"
+                    android:layout_weight="3"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9"
+                    android:lines="4"
+                    android:text="Touch on the screen to move the player to the right side of the field. Release the screen to move the player back to the left side of the field."/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:lines="2"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="The game ends when the player is enclosed by the walls and cannot move."/>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

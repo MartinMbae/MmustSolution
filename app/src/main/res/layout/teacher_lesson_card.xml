@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/lesson_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minHeight="100.0dip"
+        android:padding="10.0dip">
+
+
+
+
+        <TextView
+            android:id="@+id/unit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10.0dip"
+            android:text="Unit title"
+            android:textColor="#ff000000"
+            android:textSize="16.0sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/first_holder"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/unit_title">
+
+            <TextView
+                android:id="@+id/idname"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="1.0dip"
+                android:text="Course:"
+                android:textSize="13.0sp" />
+
+
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20.0dip"
+                android:maxLength="25"
+                android:padding="1.0dip"
+                android:layout_toEndOf="@id/idname"
+                android:text="Software Engineering"
+                android:textSize="13.0sp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/second_holder"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/first_holder">
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="1.0dip"
+                android:text="Time :"
+                android:textSize="13.0sp" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20.0dip"
+                android:layout_toEndOf="@+id/id"
+                android:maxLength="30"
+                android:padding="1.0dip"
+                android:text="Wed, 18/Sep/2019"
+                android:textSize="13.0sp" />
+
+
+        </RelativeLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/telid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12.0sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/timeid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/expiretime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>
